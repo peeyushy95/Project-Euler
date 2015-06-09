@@ -54,6 +54,20 @@ inline ll power(ll a, ll b) {
  
 /*........................................................END OF TEMPLATES.......................................................................*/
 
+ll findroot(ll num){
+	ll low = 0, high = 10000000003,mid;
+	
+	while(low<high){
+		mid = (low+high)/2;
+		
+		if(mid*mid == num) return mid;
+		if(mid*mid < num)  low = mid+1;
+		else               high = mid;
+	}
+	
+	return -1;
+}
+
 
 int main(){
 	input();
@@ -62,9 +76,10 @@ int main(){
 	s(t);
 	while(t--){
 		sl(v);
-		ll sq = (sqrt((ll)1 +2*v) - 1)/2;
-		if(sq*(sq+1)/2 != v) puts("-1");
-		else 				 pl(sq);
+		ll squareroot = (findroot(1 + 8*v) - 1)/2;
+        
+		if(squareroot*(squareroot+1)/2 != v) puts("-1");
+		else 				                 pl(squareroot);
 	}
 	
 	#ifdef Megamind
