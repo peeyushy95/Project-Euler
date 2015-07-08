@@ -13,6 +13,7 @@ typedef long long ll;
 #define pl(x)                   printf("%lld\n",x);
 #define p1d(a,n)                for(int ix=0;ix<n;ix++) printf("%d ",a[ix]); printf("\n");
 #define p2d(a,n,m)              for(int ix=0;ix<n;ix++){ for(int jx=0;jx<m;jx++) printf("%d ",a[ix][jx]); printf("\n");}
+
 void input(){
     #ifdef Megamind
             #define DEBUG
