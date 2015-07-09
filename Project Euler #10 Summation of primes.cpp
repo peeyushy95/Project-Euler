@@ -3,6 +3,7 @@
 using namespace std;
 long long a[1000002];
 bool l;
+
 int main(){
     int t,n;
     long long j,i;
@@ -27,7 +28,7 @@ int main(){
         }
         else a[i]=a[i-1];
     }
-   // for(int i=2;i<=10;i++) cout<<a[i];
+    
     while(t--){
         cin>>n;
             cout<<a[n]<<endl;
