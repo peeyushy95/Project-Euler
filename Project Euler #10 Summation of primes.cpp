@@ -4,6 +4,7 @@ using namespace std;
 long long a[1000002];
 bool l;
 
+
 int main(){
     int t,n;
     long long j,i;
