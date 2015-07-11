@@ -2,6 +2,7 @@
    AUTHOR: Peeyush yadav
    Problem:Project Euler #12: Highly divisible triangular number
 */
+
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -107,6 +108,6 @@ int main(){
 	}
 
 	#ifdef Megamind
-		cout << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC * 1000 << " ms." << endl;
+		cerr << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC * 1000 << " ms." << endl;
     #endif
 }
