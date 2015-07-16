@@ -20,7 +20,7 @@ void input(){
             #define TRACE
             #define gc getchar()
             freopen("inp.txt","r",stdin);
-            //freopen("out.txt","w",stdout);
+            freopen("out.txt","w",stdout);
     #else
             #define gc getchar_unlocked()
     #endif
