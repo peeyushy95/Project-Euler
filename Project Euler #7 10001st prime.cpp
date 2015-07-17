@@ -3,7 +3,7 @@
 using namespace std;
 
 bool l;
-int a[108005];
+int a[108008];
 int main(){
     int t,n,h;
     long long j,i;
