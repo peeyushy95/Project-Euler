@@ -118,6 +118,7 @@ int main(){
 	for(int i = 0; i< finalans.size() ; i++){
 		for(int j = 0 ; j < k; j++)
 			printf("%d",finalans[i][j]);
+		
 		printf("\n");
 	}
 	
