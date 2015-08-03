@@ -104,6 +104,6 @@ int main(){
 					p(i);
 	
 	#ifdef Megamind
-		cout << "Time elapsed: " << 1.0 * clock() / CLOCKS_PER_SEC * 1000 << " ms." << endl;
-    #endif
+		cout << "Time elapsed: "<< 1.0 * clock() / CLOCKS_PER_SEC * 1000 << " ms." << endl;
+        #endif
 }
