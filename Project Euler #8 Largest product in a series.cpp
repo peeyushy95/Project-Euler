@@ -1,3 +1,6 @@
+/*
+Author : PEEYUSH YADAV
+*/
 #include<iostream>
 using namespace std;
 int main(){
